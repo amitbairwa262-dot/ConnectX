@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Secrets & local config  (NEVER commit these)
+.env
+.secret_key
+*.pem
+
+# Local data created at runtime
+*.db
+*.sqlite3
+uploads/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
